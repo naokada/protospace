@@ -2,7 +2,7 @@
 ### association
 - has_many :prototypes, :comments, :likes, :captured_image
 
-###table
+### table
 - name
 - email
 - password
@@ -11,7 +11,7 @@
 - profile
 - works
 
-#Prototype
+# Prototype
 ### association
 - belongs_to :user
 - has_many :comments, :likes, :captured_images
