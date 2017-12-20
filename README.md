@@ -1,6 +1,6 @@
 # User
 ### association
-- has_many :prototypes, :comments, :likes, :captured_image
+- has_many :prototypes, :comments, :likes
 
 ### table
 | column | Type | Options |
@@ -16,8 +16,7 @@
 # Prototype
 ### association
 - belongs_to :user
-- has_many :comments, :captured_images
-- has_many :likes, dependent: :destroy
+- has_many :comments, :captured_images, :likes, dependent: :destroy
 
 ### table
 | column | Type | Options |
@@ -30,7 +29,7 @@
 
 # CapturedImage
 ### association
-- belongs_to :user, :prototype
+- belongs_to :prototype
 
 ### table
 | column | Type | Options |
