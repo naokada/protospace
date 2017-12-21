@@ -51,3 +51,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# tag function, no need to make tags table
+gem 'acts-as-taggable-on'
