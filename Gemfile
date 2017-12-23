@@ -63,3 +63,5 @@ gem "erb2haml"
 # imports bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
 
+gem 'devise'
+
